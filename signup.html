@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign up page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+<div class="container" id="parent-div">
+
+    <div class="child-container" id="child-div">
+        <h1>Sign Up</h1>
+
+        <form action="action.php" class="signup-form">
+
+            <p>Enter your Name</p>
+            <input type="text" name="name" id="Name-input" class="signup-form" required>
+            <p>Create a Username</p>
+            <input type="text" name="Username" id="Username-input" class="signup-form" required>
+            
+            <p>Create a Password</p>
+            <input type="password" name="Password" id="userPassword" class="signup-form" required>
+            <span id="togglePassword">👁️</span>
+
+            <input type="submit" name="submit"  value="Register"  id="submit-input" class="signup-form" id="submit">
+            
+        </form>
+    </div>
+
+    <div class="login-div" id="log-in">
+        <p>Already have a account?<a href="index.html"> Log in</a> </p>
+    </div>
+
+
+</div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

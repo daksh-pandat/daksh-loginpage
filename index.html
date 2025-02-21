@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Log In Page</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div id="parentLogin" class="login">
+
+        <div class="login" id="childLogin">
+            <h1>Log in</h1>
+            <form action="action.php"  class="formElement">
+          
+                    <label for="email" id="Email">Email</label><br>
+                    <input type="email" id="email" placeholder="Enter your email" class="formElement" required>
+                
+                
+             
+                    <label for="userPassword">Password</label><br>
+                    <input type="password" id="userPassword" placeholder="Enter your password"  class="formElement"required>
+                    <span id="togglePassword" style="cursor: pointer;">👁️</span>
+              
+        
+
+                <input type="radio" name="remember me" value="Remember Me" class="formElement">
+                <label for="Remember Me">Remember Me</label>
+                <br>
+
+                <input type="submit" value="Log in" id="submit-button" class="formElement">
+
+            </form>
+
+        </div>
+        <div class="sign-up div" id="sign-up">
+            <p>Don't have a account?<a href="signup.html"> Sign up </a> </p>
+        </div>
+
+    </div>
+
+    <script src="script.js" defer></script> 
+</body>
+</html>
