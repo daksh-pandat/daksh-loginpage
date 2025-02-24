@@ -33,7 +33,7 @@ body{
     font-size: large;
 }
 #submit-input{
-    margin-top: 1em;
+    margin-top: .5em;
     width: 15rem;
     height: 2rem;
     background-color: rgb(135, 222, 121);
